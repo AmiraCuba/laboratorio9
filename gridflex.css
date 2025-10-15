@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+    margin: 10px;
+}    
+main {
+    display: flex;
+}
+article {
+    padding: 10px;
+    margin: 15px;
+    border: 3px solid rgb(6, 65, 65);
+    flex: 1;
+    border-radius: 10px;
+}
+header, footer, aside {
+    padding: 15px;
+    text-align: center;
+    background: rgb(11, 7, 53);
+    color: white;
+    border-radius: 5px;
+}
+nav {
+    background-color: aliceblue;
+    border: 5px solid rgb(11, 7, 53);
+
+}
+aside {
+    padding-right: 50px;
+}
