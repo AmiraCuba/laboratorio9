@@ -1,4 +1,18 @@
-main {
+.contenedor {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 10px;
+    margin: 6px;
+}
+.item {
+    padding: 10px;
+    border: 2px solid rgb(0, 5, 70);
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
 }
